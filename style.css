@@ -1,0 +1,163 @@
+body {
+    font-family: 'Robto Mono';
+}
+
+
+/* İndex Jumbtron*/
+
+#jmbtrn1 {
+    background-image: url("img/jumbotron-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#jmbtrn1 p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Navbar*/
+
+nav {
+    background-color: #2B261B;
+    opacity: 0.9;
+}
+
+
+/*section1*/
+
+#section1 {
+    background-color: #F5F5F5;
+}
+
+#section1 p {
+    font-size: 1.3rem;
+}
+
+
+/* footer */
+
+footer {
+    font-size: 1.2rem;
+    background-color: #2B261B;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer a {
+    color: rgba(227, 228, 230, 0.5);
+    transition: all .3s ease;
+}
+
+footer i {
+    font-size: 2rem;
+}
+
+footer a:hover {
+    color: rgb(227, 228, 230);
+}
+
+
+/* BreakPoint */
+
+@media screen and (max-width: 768px) {
+    footer {
+        font-size: 1rem;
+    }
+    footer ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    footer i {
+        font-size: 1.5rem;
+    }
+}
+
+
+/**** Hakkımızda HTML */
+
+#hakkimizdaContent {
+    margin-top: 70px;
+}
+
+#hakkimizdaContent .header {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#hakkimizdaContent .content p {
+    font-family: 'Noticia Text', serif;
+}
+
+
+/* Hakkımızda Jumbtron*/
+
+#jmbtrn2 {
+    background-image: url("img/restaurant-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.breadcrumb {
+    background-color: rgba(58, 52, 39, 0.8);
+}
+
+.breadcrumb li {
+    font-size: 1.2rem;
+}
+
+
+/**** Hizmetlerimiz HTML */
+
+#hizmetlerimiz {
+    margin-top: 70px;
+}
+
+#hizmetlerimiz h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+#hizmetlerimizNavbar {
+    background-color: #20222D;
+}
+
+
+/******* Team HTML ******/
+
+#teamHtml {
+    background-image: url("img/jumbotron-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#team {
+    margin-top: 70px;
+}
+
+#teamShadow {
+    background-color: rgba(58, 52, 39, 0.8);
+}
+
+
+/******** İLETİŞİM HTML *******************/
+
+#jmbtrn3 {
+    background-image: url("img/iletişim.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+#sendBtn {
+    background-color: #C7C0B2;
+    transition: all .3s ease-in-out;
+}
+
+#sendBtn:hover {
+    background-color: rgb(199, 168, 105);
+}
